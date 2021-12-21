@@ -29,3 +29,6 @@ Resources:
           SNS: 'arn:aws:sns:us-east-1:002621368817:vanityGeneratorError'
           SQS: 'https://sqs.us-east-1.amazonaws.com/002621368817/vanityNumberQueue'
           TABLE: Numbers
+      DeadLetterQueue:
+        Type: SQS
+        TargetArn: 'arn:aws:sqs:us-east-1:002621368817:vanityNumberQueue'
