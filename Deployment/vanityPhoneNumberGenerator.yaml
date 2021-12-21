@@ -14,9 +14,9 @@ Resources:
       Role: 'arn:aws:iam::002621368817:role/AWSLambdaFullAccess_vanityNumber'
       Environment:
         Variables:
-          TABLE: Numbers
-          sns_arn: 'arn:aws:sns:us-east-1:002621368817:vanityGeneratorError'
+          sns_arn: 'arn:aws:sns:us-east-1:002621368817:vanityNumberErrorTopic'
           sqs_url: 'https://sqs.us-east-1.amazonaws.com/002621368817/vanityNumberQueue'
+          TABLE: Numbers
       DeadLetterQueue:
         Type: SQS
         TargetArn: 'arn:aws:sqs:us-east-1:002621368817:vanityNumberQueue'

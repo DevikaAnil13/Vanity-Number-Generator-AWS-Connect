@@ -26,7 +26,7 @@ Resources:
             Method: POST
       Environment:
         Variables:
-          SNS: 'arn:aws:sns:us-east-1:002621368817:vanityGeneratorError'
+          SNS: 'arn:aws:sns:us-east-1:002621368817:vanityNumberErrorTopic'
           SQS: 'https://sqs.us-east-1.amazonaws.com/002621368817/vanityNumberQueue'
           TABLE: Numbers
       DeadLetterQueue:
