@@ -25,6 +25,4 @@ Call: +441143921064
 - API Gateway
 - SQS
 - SNS
-- Python (for the lambda function)
-- NLTK
 
