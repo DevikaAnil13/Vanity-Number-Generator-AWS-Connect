@@ -1,13 +1,6 @@
 # Vanity-Number-Generator-AWS-Connect
 Generate top vanity numbers based on user phone number
 
-- [Overview](#overview)
-- [Documentations](RUNPYTHONAPP.md)
-- [CloudFormation Instructions](CLOUDFORMATION.md)
-- [Contact Flow Instructions](CONTACTFLOW.md)
-- [Managing The Project (Trello Board)](https://trello.com/b/MtaGkEdG/voicefoundry-code-challenge)
-- [Blockers (Trello Board)](https://trello.com/b/MtaGkEdG/voicefoundry-code-challenge)
-
 ## Overview:
 Implementation of mid-level assignment on vanity number generator.
 
